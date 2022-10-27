@@ -17,208 +17,230 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <a href="../index.html">
-          <img class="logo" src="../multimedia/logo.png" alt="logo" />
-        </a>
-        <ul class="navigation-links">
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./productos.html">Productos</a></li>
-          <li><a href="./arma-tu-pc.html">Arma tu PC</a></li>
-          <li><a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-color">
+        <div class="container-fluid">
+          <a href="../index.html">
+            <img
+              class="logo"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+              src="../multimedia/logo.png"
+              alt="logo"
+            />
+          </a>
+          <button
+            style="background-color: #cc4444"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto nav-link">
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./arma-tu-pc.html"
+                  >Arma tu PC</a
+                >
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./sobre-nosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <main>
+    <section class="contenedor">
       <h1>Productos</h1>
-      <section class="section">
-        <h3>MicroProcesadores</h3>
-        <div class="product-card-container">
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/i5.jpg"
-              alt="imagen de procesador intel core i5"
-            />
-            <h4>Procesador Intel Core i5</h4>
-            <p>$30.0000</p>
-            <button class="button">Comprar</button>
+      <main>
+        <section class="section">
+          <h3>MicroProcesadores</h3>
+          <div class="product-card-container">
+            <div class="product-card">
+              <img
+                src="../multimedia/i5.jpg"
+                alt="imagen de procesador intel core i5"
+              />
+              <h4>Procesador Intel Core i5</h4>
+              <p>$30.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/i7.jpg"
+                alt="imagen de procesador intel core i7"
+              />
+              <h4>Procesador Intel Core i7</h4>
+              <p>$60.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/i9.jpg"
+                alt="imagen de procesador intel core i9"
+              />
+              <h4>Procesador Intel Core i9</h4>
+              <p>$100.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/ryzen5.jpeg"
+                alt="imagen de procesador ryzen 5"
+              />
+              <h4>Procesador Ryzen 5</h4>
+              <p>$29.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/ryzen7.jpg"
+                alt="imagen de procesador ryzen 7"
+              />
+              <h4>Procesador Ryzen 7</h4>
+              <p>$59.0000</p>
+              <button class="button">Comprar</button>
+            </div>
           </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/i7.jpg"
-              alt="imagen de procesador intel core i7"
-            />
-            <h4>Procesador Intel Core i7</h4>
-            <p>$60.0000</p>
-            <button class="button">Comprar</button>
+        </section>
+        <section class="section">
+          <h3>Motherboards</h3>
+          <div class="product-card-container">
+            <div class="product-card">
+              <img
+                src="../multimedia/mother.png"
+                alt="imagen de motherboard Asus Z590"
+              />
+              <h4>Motherboard Aorus Z590 Elite</h4>
+              <p>$60.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/gigabyte.jpg"
+                alt="imagen de motherboard Gigabyte B450M"
+              />
+              <h4>Motherboard Gigabyte B450M</h4>
+              <p>$30.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/evega.jpg"
+                alt="imagen de motherboard evga x570"
+              />
+              <h4>Motherboard EVGA Z570</h4>
+              <p>$70.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/rogstrix.jpg"
+                alt="imagen de motherboard Rog Strix Maximus"
+              />
+              <h4>Motherboard Rog Strix Maximus</h4>
+              <p>$90.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/msi.jpeg"
+                alt="imagen de motherboard MSI PRO B660M-G"
+              />
+              <h4>Motherboard MSI PRO B660M-G</h4>
+              <p>$80.0000</p>
+              <button class="button">Comprar</button>
+            </div>
           </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/i9.jpg"
-              alt="imagen de procesador intel core i9"
-            />
-            <h4>Procesador Intel Core i9</h4>
-            <p>$100.0000</p>
-            <button class="button">Comprar</button>
+        </section>
+        <section class="section">
+          <h3>Memorias RAM</h3>
+          <div class="product-card-container">
+            <div class="product-card">
+              <img
+                src="../multimedia/ram.jpg"
+                alt="imagen de memoria ram Corsair Vengeance PRO RGB"
+              />
+              <h4>Memoria RAM Corsair PRO RGB</h4>
+              <p>$20.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/trindent.jpg"
+                alt="imagen de memoria ram Trindent Z"
+              />
+              <h4>Memoria RAM Trident Z</h4>
+              <p>$35.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/fury.jpg"
+                alt="imagen de memoria ram Kingston Fury"
+              />
+              <h4>Memoria RAM Kingston Fury</h4>
+              <p>$15.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/crucial.jpg"
+                alt="imagen de memoria ram Crucial Ballistix"
+              />
+              <h4>Memoria RAM Crucial Ballistix</h4>
+              <p>$18.0000</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="../multimedia/pny.jpg"
+                alt="imagen de memoria ram PNY XLRB"
+              />
+              <h4>Memoria RAM PNY XLRB</h4>
+              <p>$10.0000</p>
+              <button class="button">Comprar</button>
+            </div>
           </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/ryzen5.jpeg"
-              alt="imagen de procesador ryzen 5"
-            />
-            <h4>Procesador Ryzen 5</h4>
-            <p>$29.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/ryzen7.jpg"
-              alt="imagen de procesador ryzen 7"
-            />
-            <h4>Procesador Ryzen 7</h4>
-            <p>$59.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <h3>Motherboards</h3>
-        <div class="product-card-container">
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/mother.png"
-              alt="imagen de motherboard Asus Z590"
-            />
-            <h4>Motherboard Aorus Z590 Elite</h4>
-            <p>$60.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/gigabyte.jpg"
-              alt="imagen de motherboard Gigabyte B450M"
-            />
-            <h4>Motherboard Gigabyte B450M</h4>
-            <p>$30.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/evega.jpg"
-              alt="imagen de motherboard evga x570"
-            />
-            <h4>Motherboard EVGA Z570</h4>
-            <p>$70.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/rogstrix.jpg"
-              alt="imagen de motherboard Rog Strix Maximus"
-            />
-            <h4>Motherboard Rog Strix Maximus</h4>
-            <p>$90.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/msi.jpeg"
-              alt="imagen de motherboard MSI PRO B660M-G"
-            />
-            <h4>Motherboard MSI PRO B660M-G</h4>
-            <p>$80.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <h3>Memorias RAM</h3>
-        <div class="product-card-container">
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/ram.jpg"
-              alt="imagen de memoria ram Corsair Vengeance PRO RGB"
-            />
-            <h4>Memoria RAM Corsair PRO RGB</h4>
-            <p>$20.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/trindent.jpg"
-              alt="imagen de memoria ram Trindent Z"
-            />
-            <h4>Memoria RAM Trident Z</h4>
-            <p>$35.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/fury.jpg"
-              alt="imagen de memoria ram Kingston Fury"
-            />
-            <h4>Memoria RAM Kingston Fury</h4>
-            <p>$15.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/crucial.jpg"
-              alt="imagen de memoria ram Crucial Ballistix"
-            />
-            <h4>Memoria RAM Crucial Ballistix</h4>
-            <p>$18.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="../multimedia/pny.jpg"
-              alt="imagen de memoria ram PNY XLRB"
-            />
-            <h4>Memoria RAM PNY XLRB</h4>
-            <p>$10.0000</p>
-            <button class="button">Comprar</button>
-          </div>
-        </div>
-      </section>
-    </main>
+        </section>
+      </main>
+    </section>
     <footer>
       <h3>Matitech ®</h3>
       <p>Desarrollado por Mathias Gonzalez</p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -16,27 +16,65 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <a href="../index.html">
-          <img class="logo" src="../multimedia/logo.png" alt="logo" />
-        </a>
-        <ul class="navigation-links">
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./productos.html">Productos</a></li>
-          <li><a href="./arma-tu-pc.html">Arma tu PC</a></li>
-          <li><a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-color">
+        <div class="container-fluid">
+          <a href="../index.html">
+            <img class="logo" src="../multimedia/logo.png" alt="logo" />
+          </a>
+          <button
+            style="background-color: #cc4444"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto nav-link">
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./arma-tu-pc.html"
+                  >Arma tu PC</a
+                >
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./sobre-nosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <main>
+    <section class="contenedor">
       <h1 class="mb-20">Sobre Nosotros</h1>
-      <section class="section">
+      <main class="section">
         <p class="mb-30">
           Matitech es una tienda con más 18 años dentro del rubro tecnológico en
           Argentina. Nos dedicamos a la venta de computadoras, notebooks,
@@ -64,7 +102,7 @@
           src="../multimedia/tienda.webp"
           alt="Imagen de una tienda gamer"
         />
-      </section>
+      </main>
       <section class="section">
         <h3>¡Encontranos en nuestras redes!</h3>
         <div class="iconos-redes">
@@ -75,11 +113,16 @@
           <i class="fa-brands fa-tiktok"></i>
         </div>
       </section>
-    </main>
+    </section>
     <footer>
       <h3>Matitech ®</h3>
       <p>Desarrollado por Mathias Gonzalez</p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/a6126095e3.js"
       crossorigin="anonymous"

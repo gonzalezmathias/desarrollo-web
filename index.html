@@ -26,28 +26,61 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <a href="./index.html">
-          <img
-            class="logo"
-            data-aos="fade-down"
-            data-aos-duration="2000"
-            src="./multimedia/logo.png"
-            alt="logo"
-          />
-        </a>
-
-        <ul class="navigation-links">
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./pages/productos.html">Productos</a></li>
-          <li><a href="./pages/arma-tu-pc.html">Arma tu PC</a></li>
-          <li><a href="./pages/sobre-nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="./pages/contacto.html">Contacto</a></li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-color">
+        <div class="container-fluid">
+          <a href="./index.html">
+            <img
+              class="logo"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+              src="./multimedia/logo.png"
+              alt="logo"
+            />
+          </a>
+          <button
+            style="background-color: #cc4444"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto nav-link">
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./pages/productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./pages/arma-tu-pc.html"
+                  >Arma tu PC</a
+                >
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./pages/sobre-nosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link nav-txt" href="./pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <main>
+    <section class="contenedor">
       <h1 class="mb-20">Inicio</h1>
       <div
         id="carouselExampleIndicators"
@@ -119,116 +152,105 @@
         </button>
       </div>
 
-      <section class="section">
-        <h3>Mas vendido</h3>
-        <div class="product-card-container">
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="./multimedia/logitechg733.jpg"
-              alt="imagen de auricular logitech g733"
-            />
-            <h4>Auricular Logitech G733</h4>
-            <p>$19.999</p>
-            <button class="button">Comprar</button>
+      <main>
+        <section class="section">
+          <h3>Mas vendido</h3>
+          <div class="product-card-container">
+            <div class="product-card">
+              <img
+                src="./multimedia/logitechg733.jpg"
+                alt="imagen de auricular logitech g733"
+              />
+              <h4>Auricular Logitech G733</h4>
+              <p>$19.999</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="./multimedia/mouseg703.jpg"
+                alt="imagen de mouse logitech 703"
+              />
+              <h4>Mouse Logitech G703</h4>
+              <p>$12.999</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="./multimedia/mousepad.jpg"
+                alt="imagen de mousepad hyperx fury XXL"
+              />
+              <h4>Mousepad Hyperx Fury XXL</h4>
+              <p>$11.000</p>
+              <button class="button">Comprar</button>
+            </div>
           </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="./multimedia/mouseg703.jpg"
-              alt="imagen de mouse logitech 703"
-            />
-            <h4>Mouse Logitech G703</h4>
-            <p>$12.999</p>
-            <button class="button">Comprar</button>
+        </section>
+        <section class="section">
+          <h3>Ofertas</h3>
+          <div class="product-card-container">
+            <div class="product-card">
+              <img
+                src="./multimedia/logitechg733.jpg"
+                alt="imagen de auricular logitech g733"
+              />
+              <h4>Auricular Logitech G733</h4>
+              <p>$19.999</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="./multimedia/mouseg703.jpg"
+                alt="imagen de mouse logitech 703"
+              />
+              <h4>Mouse Logitech G703</h4>
+              <p>$12.999</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="./multimedia/mousepad.jpg"
+                alt="imagen de mousepad hyperx fury XXL"
+              />
+              <h4>Mousepad Hyperx Fury XXL</h4>
+              <p>$11.000</p>
+              <button class="button">Comprar</button>
+            </div>
           </div>
-
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="./multimedia/mousepad.jpg"
-              alt="imagen de mousepad hyperx fury XXL"
-            />
-            <h4>Mousepad Hyperx Fury XXL</h4>
-            <p>$11.000</p>
-            <button class="button">Comprar</button>
+        </section>
+        <section class="section">
+          <h3>Lo nuevo</h3>
+          <div class="product-card-container">
+            <div class="product-card">
+              <img
+                src="./multimedia/logitechg733.jpg"
+                alt="imagen de auricular logitech g733"
+              />
+              <h4>Auricular Logitech G733</h4>
+              <p>$19.999</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="./multimedia/mouseg703.jpg"
+                alt="imagen de mouse logitech 703"
+              />
+              <h4>Mouse Logitech G703</h4>
+              <p>$12.999</p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="product-card">
+              <img
+                src="./multimedia/mousepad.jpg"
+                alt="imagen de mousepad hyperx fury XXL"
+              />
+              <h4>Mousepad Hyperx Fury XXL</h4>
+              <p>$11.000</p>
+              <button class="button">Comprar</button>
+            </div>
           </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <h3>Ofertas</h3>
-        <div class="product-card-container">
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="./multimedia/logitechg733.jpg"
-              alt="imagen de auricular logitech g733"
-            />
-            <h4>Auricular Logitech G733</h4>
-            <p>$19.999</p>
-            <button class="button">Comprar</button>
-          </div>
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="./multimedia/mouseg703.jpg"
-              alt="imagen de mouse logitech 703"
-            />
-            <h4>Mouse Logitech G703</h4>
-            <p>$12.999</p>
-            <button class="button">Comprar</button>
-          </div>
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="./multimedia/mousepad.jpg"
-              alt="imagen de mousepad hyperx fury XXL"
-            />
-            <h4>Mousepad Hyperx Fury XXL</h4>
-            <p>$11.000</p>
-            <button class="button">Comprar</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <h3>Lo nuevo</h3>
-        <div class="product-card-container">
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="./multimedia/logitechg733.jpg"
-              alt="imagen de auricular logitech g733"
-            />
-            <h4>Auricular Logitech G733</h4>
-            <p>$19.999</p>
-            <button class="button">Comprar</button>
-          </div>
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="./multimedia/mouseg703.jpg"
-              alt="imagen de mouse logitech 703"
-            />
-            <h4>Mouse Logitech G703</h4>
-            <p>$12.999</p>
-            <button class="button">Comprar</button>
-          </div>
-          <div class="product-card">
-            <img
-              class="section-img"
-              src="./multimedia/mousepad.jpg"
-              alt="imagen de mousepad hyperx fury XXL"
-            />
-            <h4>Mousepad Hyperx Fury XXL</h4>
-            <p>$11.000</p>
-            <button class="button">Comprar</button>
-          </div>
-        </div>
-      </section>
-    </main>
+        </section>
+      </main>
+    </section>
     <footer>
       <h3>Matitech ®</h3>
       <p>Desarrollado por Mathias Gonzalez</p>

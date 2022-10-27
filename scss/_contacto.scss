@@ -1,0 +1,25 @@
+form {
+  width: 100%;
+  margin: 0 auto;
+
+  * {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  form {
+    width: 50%;
+  }
+}
+
+.form-button {
+  width: 20%;
+}
+.form-contacto > *:not(button) {
+  padding: 5px;
+}
+
+.form-contacto > button {
+  font-size: 16px;
+}

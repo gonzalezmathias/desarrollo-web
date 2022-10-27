@@ -1,0 +1,174 @@
+@import "variables";
+@import "arma-tu-pc";
+@import "contacto";
+@import "clases-utilidad";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  color: $color-200;
+  background-color: $color-800;
+}
+
+.navigation-links {
+  list-style: none;
+  padding: 0 $spacer-lg;
+  margin: 0;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $color-acento;
+  }
+
+  li {
+    display: inline;
+    margin-right: $spacer-sm;
+  }
+}
+
+.header {
+  background-color: $color-900;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: $spacer-md;
+  padding: $spacer-sm 5px;
+}
+
+@media screen and (min-width: 460px) {
+  .nav {
+    flex-direction: row;
+    gap: 0;
+    padding: $spacer-lg $spacer-2xl;
+  }
+}
+
+.logo {
+  width: 80px;
+  cursor: pointer;
+}
+
+.contenedor {
+  padding: $spacer-2xl $spacer-md;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: $spacer-xl 0;
+
+  h3 {
+    margin-bottom: $spacer-md;
+  }
+}
+
+.button {
+  background-color: $color-acento;
+  color: $color-200;
+  width: 100%;
+  padding: $spacer-md 0;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(204, 68, 68, 0.5);
+  }
+}
+
+footer {
+  padding: $spacer-2xl;
+  background-color: $color-900;
+}
+
+i {
+  font-size: $spacer-xl;
+  cursor: pointer;
+  transition: all 150ms ease-in;
+
+  &:hover {
+    color: $color-acento;
+    transform: translateY(-4px);
+  }
+}
+
+.iconos-redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $spacer-sm;
+}
+
+/********* PRODUCT CARD *********/
+.product-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: $spacer-lg;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $spacer-xs;
+  background-color: $color-100;
+  color: $color-800;
+  padding: $spacer-md;
+  transition: all 150ms ease-in;
+  width: 350px;
+
+  h4 {
+    font-size: $spacer-md;
+  }
+
+  img {
+    width: 280px;
+    height: 280px;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 8px 7px rgba(0, 0, 0, 0.5);
+    transform: translateY(-6px);
+  }
+}
+
+/********* PRODUCT CARD *********/
+
+.carousel img {
+  max-height: 500px;
+}
+
+.navbar-color {
+  background-color: $color-900;
+  color: $color-200;
+}
+
+.nav-txt {
+  color: $color-200;
+
+  &:hover {
+    color: $color-acento;
+  }
+}
