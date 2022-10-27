@@ -1,0 +1,24 @@
+.arma-tu-pc {
+  width: 100%;
+  padding: $spacer-xl;
+  background-color: $color-700;
+  margin: 0 auto;
+
+  * {
+    font-size: 22px;
+  }
+
+  div {
+    margin-bottom: $spacer-xl;
+  }
+
+  select {
+    width: 100%;
+    padding: $spacer-xs;
+    text-align: inherit;
+  }
+
+  h3 {
+    margin-bottom: $spacer-xs;
+  }
+}
